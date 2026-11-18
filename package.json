@@ -1,0 +1,16 @@
+{
+  "name": "dzepix",
+  "private": true,
+  "version": "0.2.0",
+  "description": "PixelLab -> editable .aseprite -> game engine (Phaser, Godot) art pipeline. Used as a submodule at tools/art/; run from the game's root: node tools/art/art.mjs help",
+  "type": "module",
+  "bin": { "art": "./art.mjs" },
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "test": "node test/smoke.mjs"
+  },
+  "dependencies": {
+    "adm-zip": "^0.6.1",
+    "pngjs": "^7.0.0"
+  }
+}
